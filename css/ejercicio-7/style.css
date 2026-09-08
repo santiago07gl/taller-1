@@ -1,0 +1,38 @@
+body {
+	background-color: #f1f5f9;
+	color: #1e293b;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 30px;
+}
+
+h1 {
+	color: #1e3a8a;
+	text-align: center;
+}
+
+.galeria {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 30px auto;
+	max-width: 900px;
+}
+
+.producto {
+	background-color: white;
+	border: 1px solid #cbd5e1;
+	border-radius: 8px;
+	padding: 25px;
+	text-align: center;
+}
+
+.producto h2 {
+	color: #2563eb;
+	margin-top: 0;
+}
+
+.producto p {
+	font-size: 18px;
+	font-weight: bold;
+}
