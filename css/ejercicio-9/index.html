@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Posicionamiento CSS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main class="contenedor">
+		<h1>Pruebas de posicionamiento</h1>
+		<p class="explicacion">Cada caja muestra un tipo diferente de posición.</p>
+
+		<section class="zona">
+			<div class="elemento relativo">relative</div>
+			<div class="elemento absoluto">absolute</div>
+			<div class="elemento pegajoso">sticky</div>
+			<div class="elemento fondo">Caja de fondo</div>
+			<div class="elemento encima">Caja superpuesta</div>
+		</section>
+
+		<section class="texto">
+			<h2>¿Qué ocurre?</h2>
+			<p>La caja relative se mueve desde su posición original. La caja absolute se ubica usando el contenedor como referencia.</p>
+			<p>La caja sticky permanece visible al desplazarse. La caja fija permanece en la esquina de la ventana.</p>
+			<p>La caja verde usa otra posición absoluta. La caja fija permanece en la esquina de la ventana.</p>
+			<p>Las cajas del final se superponen porque usan posiciones similares. La propiedad z-index decide cuál aparece por encima.</p>
+		</section>
+
+		<div class="elemento fijo">fixed</div>
+	</main>
+</body>
+</html>
