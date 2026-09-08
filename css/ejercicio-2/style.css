@@ -1,0 +1,35 @@
+body {
+	background-color: #f1f5f9;
+	color: #1e293b;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 2rem;
+	text-align: center;
+}
+
+.cajas {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.caja {
+	align-items: center;
+	color: #ffffff;
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	width: 200px;
+}
+
+.caja-uno {
+	background-color: #2563eb;
+}
+
+.caja-dos {
+	background-color: #dc2626;
+}
+
+.caja-tres {
+	background-color: #16a34a;
+}
