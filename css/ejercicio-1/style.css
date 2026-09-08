@@ -1,0 +1,23 @@
+
+h1 {
+	color: #1d4ed8;
+	font-size: 2.5rem;
+}
+
+
+p {
+	color: #374151;
+	font-size: 1.1rem;
+}
+
+
+.destacado {
+	color: #b45309;
+	font-size: 1.3rem;
+}
+
+
+#especial {
+	color: #15803d;
+	font-size: 1.5rem;
+}
